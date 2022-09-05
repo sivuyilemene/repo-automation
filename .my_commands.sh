@@ -16,4 +16,5 @@ function create () {
     git remote add origin https://github.com/$USERNAME/$1.git
     echo "pushing to remote..."
     git push -u origin main
+    code .
 }
